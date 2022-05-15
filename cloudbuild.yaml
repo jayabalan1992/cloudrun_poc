@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'LOCATION-docker.pkg.dev/modular-terra-348718/cloudrun-poc-test-repo/pythontest', '.' ]
+  args: [ 'build', '-t', 'us-east1-docker.pkg.dev/modular-terra-348718/cloudrun-poc-test-repo/pythontest', '.' ]
 options:
   logging: NONE
